@@ -32,7 +32,32 @@ const myFunction = function() {
     console.log("Hello world");
 }
 const bigNumber = 123456789012345678901234567890n;
-console.log(typeof outsideTem);
+// console.log(typeof outsideTem);
 
 // console.log(typeof bigNumber);
 
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (all primitive type me ye use hoti hai) , heap memory(all non primitive type me ye use hoti hai)
+
+let myYoutubeName = "Hiteshchaudhrydotcom"
+
+let anothername = myYoutubeName
+anothername = "chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl" 
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
